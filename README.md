@@ -1,39 +1,41 @@
-# React Movie App - ReactJS Projects
+ Movie React App
+A web application built with React to explore and search movies, view detailed information, and save favorites.
 
-![](movie.gif)
+🚀 Features
+Browse popular movies
+Search for movies by title
+View detailed information (synopsis, rating, release date)
+Add movies to a favorites list
+Responsive design for mobile and desktop
+🛠️ Technologies
+Frontend: React, JavaScript, HTML, CSS
+API: TMDB (The Movie Database) API for movie data
+📦 Installation
+Clone the repository:
 
-### Demo - Deployed over Github Pages 
-https://ayushkul.github.io/react-movie-app
+bash
+Copy code
+git clone https://github.com/your-username/movie-react-app.git  
+cd movie-react-app  
+Install dependencies:
 
-### Full development Tutorial 
-[Youtube Tutorial - The Indian Dev](https://www.youtube.com/watch?v=_UXycMmVYj0)
+bash
+Copy code
+npm install  
+Create an .env file in the root directory with your TMDB API key:
 
-### APIs Used
-[The Open Movie Database APIs](http://www.omdbapi.com/)
+env
+Copy code
+REACT_APP_TMDB_API_KEY=your_api_key_here  
+Start the development server:
 
-Generate API key from : http://www.omdbapi.com/apikey.aspx
+bash
+Copy code
+npm start  
+🖼️ Screenshots
 
-### API Info
-* Method: `GET`
-* Search URL: `https://www.omdbapi.com/?s={MOVIE_NAME}&apikey={API_KEY}`
-* Movie Details URL: `https://www.omdbapi.com/?i={MOVIE_ID}&apikey={API_KEY}`
+🤝 Contributing
+Contributions are welcome! Feel free to fork this repo and submit a pull request.
 
-### Icons & Font -
-* Icons: [ayushkul/react-movie-app](https://github.com/ayushkul/react-movie-app/tree/main/public/)
-* Font Link: `<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">`
-
-### Libraries used
-* `styled-components`
-* `axios`
-* `react-scripts`
-
-### Whom do I talk to? ###
-
-* AyushK : [The Indian Dev](https://www.instagram.com/theindiandev)
-
-### How can I appreciate this repo? ###
-
-* By giving this repo a 🌟
-* By Subscribing : [The Indian Dev](https://www.youtube.com/channel/UCbaR6YYn5VGXrR5_f-4tNsA) at Youtube
-* By Following : [The Indian Dev](https://www.instagram.com/theindiandev) at Instagram
-
+📜 License
+This project is licensed under the MIT License.
